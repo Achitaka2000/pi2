@@ -5,8 +5,8 @@ An interactive map application to manage and locate donations.
 
 🚀 Setup Instructions
 1. Clone the Repository
-git clone https://github.com/your-username/donation-map.git
-cd donation-map
+git clone https://github.com...
+ the full url is in code > clone
 
 2. Install Dependencies
 npm install
