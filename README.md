@@ -1,8 +1,17 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Donation Map Project
+An interactive map application to manage and locate donations.
 
-Currently, two official plugins are available:
+🚀 Setup Instructions
+1. Clone the Repository
+git clone https://github.com/your-username/donation-map.git
+cd donation-map
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Install Dependencies
+npm install
+
+4. Start the Development Server
+npm run dev
+
+The application will run at http://localhost:3000.
