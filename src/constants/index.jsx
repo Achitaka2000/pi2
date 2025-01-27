@@ -15,12 +15,176 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Fonctionnalités", href: "#" },
-  { label: "Flux de travail", href: "#" },
-  { label: "Tarification", href: "#" },
-  { label: "Témoignages", href: "#" },
+  { label: "Notre démarche", href: "notre-demarche" },
+  { label: "Actualités", href: "actualites" },
+  { label: "Nos partenaires", href: "nos-partenaires" },
+  { label: "Mon compte", href: "mon-compte" },
+  { label: "Contacts", href: "contacts" },
+  { label: "FAQ", href: "faq" },
 ];
 
+export const donations = [
+  {
+    id: 1,
+    place: "Supermarché",
+    type: "Haricots en conserve",
+    quantity: "50g",
+    description:
+      "5 boîtes de haricots en conserve de la marque XYZ, achetées le 01/10/2023, en très bon état et non périssables jusqu'au 01/10/2025.",
+  },
+  {
+    id: 2,
+    place: "Boulangerie",
+    type: "Pain",
+    quantity: "100g",
+    description:
+      "10 pains frais du jour, idéal pour les sandwiches et les toasts, à consommer de préférence avant le 05/10/2023.",
+  },
+  {
+    id: 3,
+    place: "Marché fermier",
+    type: "Légumes frais",
+    quantity: "250g",
+    description:
+      "Un assortiment de légumes frais, incluant des carottes, des tomates et des poivrons, récoltés le 02/10/2023.",
+  },
+  {
+    id: 4,
+    place: "Épicerie",
+    type: "Riz",
+    quantity: "500g",
+    description:
+      "Riz blanc de haute qualité, parfait pour les plats principaux et les accompagnements, acheté le 01/09/2023, non périssable jusqu'au 01/09/2024.",
+  },
+  {
+    id: 5,
+    place: "Ferme laitière",
+    type: "Lait",
+    quantity: "300cL",
+    description:
+      "Lait frais entier, idéal pour la consommation directe ou pour cuisiner, à consommer de préférence avant le 10/10/2023.",
+  },
+  {
+    id: 6,
+    place: "Verger",
+    type: "Pommes",
+    quantity: "200g",
+    description:
+      "Pommes croquantes et juteuses, parfaites pour les collations ou les desserts, récoltées le 01/10/2023.",
+  },
+  {
+    id: 7,
+    place: "Marché aux poissons",
+    type: "Saumon",
+    quantity: "150g",
+    description:
+      "Saumon frais, excellent pour les grillades ou les sushis, pêché le 03/10/2023.",
+  },
+  {
+    id: 8,
+    place: "Boucherie",
+    type: "Poulet",
+    quantity: "400g",
+    description:
+      "Poulet frais, prêt à être cuisiné pour divers plats, à consommer de préférence avant le 07/10/2023.",
+  },
+  {
+    id: 9,
+    place: "Supermarché",
+    type: "Pâtes",
+    quantity: "350g",
+    description:
+      "Pâtes de différentes formes, parfaites pour les repas rapides et faciles, achetées le 01/09/2023, non périssables jusqu'au 01/09/2024.",
+  },
+  {
+    id: 10,
+    place: "Boulangerie",
+    type: "Pâtisseries",
+    quantity: "120g",
+    description:
+      "Assortiment de pâtisseries fraîches, incluant des croissants et des pains au chocolat, à consommer de préférence avant le 05/10/2023.",
+  },
+  {
+    id: 11,
+    place: "Marché fermier",
+    type: "Tomates",
+    quantity: "180g",
+    description:
+      "Tomates mûres et juteuses, idéales pour les salades et les sauces, récoltées le 02/10/2023.",
+  },
+  {
+    id: 12,
+    place: "Épicerie",
+    type: "Farine",
+    quantity: "220g",
+    description:
+      "Farine tout usage, parfaite pour la pâtisserie et la cuisine, achetée le 01/09/2023, non périssable jusqu'au 01/09/2024.",
+  },
+  {
+    id: 13,
+    place: "Ferme laitière",
+    type: "Fromage",
+    quantity: "250g",
+    description:
+      "Fromage artisanal, idéal pour les plateaux de fromages et les recettes, à consommer de préférence avant le 15/10/2023.",
+  },
+  {
+    id: 14,
+    place: "Verger",
+    type: "Oranges",
+    quantity: "300g",
+    description:
+      "Oranges fraîches et juteuses, parfaites pour les jus et les collations, récoltées le 01/10/2023.",
+  },
+  {
+    id: 15,
+    place: "Marché aux poissons",
+    type: "Thon",
+    quantity: "100g",
+    description:
+      "Thon frais, excellent pour les sushis ou les steaks de thon, pêché le 03/10/2023.",
+  },
+  {
+    id: 16,
+    place: "Boucherie",
+    type: "Bœuf",
+    quantity: "450g",
+    description:
+      "Bœuf frais, prêt à être cuisiné pour divers plats, à consommer de préférence avant le 07/10/2023.",
+  },
+  {
+    id: 17,
+    place: "Supermarché",
+    type: "Céréales",
+    quantity: "280g",
+    description:
+      "Céréales variées, parfaites pour les petits déjeuners rapides, achetées le 01/09/2023, non périssables jusqu'au 01/09/2024.",
+  },
+  {
+    id: 18,
+    place: "Boulangerie",
+    type: "Bagels",
+    quantity: "80g",
+    description:
+      "Bagels frais, parfaits pour les petits déjeuners et les collations, à consommer de préférence avant le 05/10/2023.",
+  },
+  {
+    id: 19,
+    place: "Marché fermier",
+    type: "Carottes",
+    quantity: "150g",
+    description:
+      "Carottes croquantes, idéales pour les salades et les plats cuisinés, récoltées le 02/10/2023.",
+  },
+  {
+    id: 20,
+    place: "Épicerie",
+    type: "Sucre",
+    quantity: "200g",
+    description:
+      "Sucre blanc, parfait pour la pâtisserie et la cuisine, acheté le 01/09/2023, non périssable jusqu'au 01/09/2024.",
+  },
+];
 export const testimonials = [
   {
     user: "Sarah Thompson",

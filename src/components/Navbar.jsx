@@ -8,9 +8,12 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
             <img className="h-10 w-10 mr-2" src={logo} alt="Logo" />
-            <span className="text-xl text-green-800 font-semibold tracking-tight">
+            <a
+              href="/"
+              className="text-xl text-green-800 font-semibold tracking-tight"
+            >
               FoodShare
-            </span>
+            </a>
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
@@ -32,10 +35,10 @@ const Navbar = () => {
               Connexion
             </a>
             <a
-              href="#"
+              href="donner"
               className="bg-gradient-to-r from-green-500 to-green-700 text-white py-2 px-3 rounded-md hover:from-green-600 hover:to-green-800"
             >
-              Créer un compte
+              Je Veux Donner !
             </a>
           </div>
         </div>
