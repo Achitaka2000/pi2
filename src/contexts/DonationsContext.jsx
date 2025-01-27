@@ -14,6 +14,8 @@ export const DonationsProvider = ({ children }) => {
             place: "Paris",
             quantity: 10,
             description: "Pommes bio",
+            latitude: 48.8566,
+            longitude: 2.3522,
           },
           {
             id: 2,
@@ -21,6 +23,8 @@ export const DonationsProvider = ({ children }) => {
             place: "Lyon",
             quantity: 5,
             description: "Carottes fraîches",
+            latitude: 45.764043,
+            longitude: 4.835659,
           },
         ];
   });
