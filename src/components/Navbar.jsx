@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png";
+import logo1 from "../assets/logo1.png";
 import { navItems } from "../constants";
 
 const Navbar = () => {
@@ -7,12 +7,8 @@ const Navbar = () => {
       <div className="container px-4 mx-auto relative">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <img className="h-10 w-10 mr-2" src={logo} alt="Logo" />
-            <a
-              href="/"
-              className="text-xl text-green-800 font-semibold tracking-tight"
-            >
-              FoodShare
+            <a href="/">
+              <img className="h-10 w-30 mr-5" src={logo1} alt="Logo" />
             </a>
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">

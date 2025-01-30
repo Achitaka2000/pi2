@@ -1,7 +1,7 @@
 import React from "react";
 import { CheckCircle2 } from "lucide-react";
-import food from "../assets/food.jpg";
 import { checklistItems } from "../constants";
+import patate from "../assets/patate.jpg";
 
 const WorkFlow = () => {
   return (
@@ -15,7 +15,7 @@ const WorkFlow = () => {
       </h1>
       <div className="flex justify-center pt-10">
         <div className="p-5 w-full w-1/2">
-          <img src={food} alt="Nourriture" className="rounded-xl" />
+          <img src={patate} alt="Nourriture" className="rounded-xl h-full" />
         </div>
         <div className="pt-12 w-full">
           {checklistItems.map((item, index) => (

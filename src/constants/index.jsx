@@ -270,16 +270,6 @@ export const checklistItems = [
       "Ajoutez rapidement des articles alimentaires excédentaires de votre cuisine, les rendant disponibles pour que les autres les trouvent et contribuent à réduire le gaspillage.",
   },
   {
-    title: "Consulter les annonces en toute confiance",
-    description:
-      "Vérifiez la disponibilité des aliments, leurs descriptions et leurs détails de péremption, afin de pouvoir choisir en toute confiance les articles qui répondent à vos besoins.",
-  },
-  {
-    title: "Suggestions intelligentes pour réduire le gaspillage",
-    description:
-      "Recevez des recommandations sur les aliments que vous pourriez donner en fonction des dates de péremption, vous aidant ainsi à gérer efficacement votre garde-manger.",
-  },
-  {
     title: "Partager des aliments en quelques minutes",
     description:
       "Répertoriez et partagez des aliments excédentaires avec la communauté en quelques clics, contribuant instantanément à la réduction du gaspillage.",
@@ -288,11 +278,6 @@ export const checklistItems = [
     title: "Suivre votre impact alimentaire",
     description:
       "Voyez combien de gaspillage alimentaire vous avez contribué à prévenir, créant un impact positif dans votre communauté et pour l'environnement.",
-  },
-  {
-    title: "Recevez des notifications pour des aliments à proximité",
-    description:
-      "Recevez des alertes lorsque de nouveaux articles alimentaires sont disponibles près de chez vous, pour ne pas manquer les options fraîches de votre communauté.",
   },
 ];
 

@@ -1,6 +1,6 @@
 import React from "react";
-import video3 from "../assets/video3.mp4";
-import video4 from "../assets/video4.mp4";
+import ville from "../assets/ville.jpg";
+import market from "../assets/market.jpg";
 
 const Hero = () => {
   return (
@@ -31,22 +31,16 @@ const Hero = () => {
         </a>
       </div>
       <div className="flex mt-10 justify-center">
-        <video
-          autoPlay
-          muted
-          loop
+        <img
+          src={ville}
+          alt="Ville"
           className="rounded-lg border border-green-600 shadow-green-400 w-1/2 mx-2 my-4"
-        >
-          <source src={video3} type="video/mp4" />
-        </video>
-        <video
-          autoPlay
-          muted
-          loop
+        />
+        <img
+          src={market}
+          alt="Market"
           className="rounded-lg border border-green-600 shadow-green-400 w-1/2 mx-2 my-4"
-        >
-          <source src={video4} type="video/mp4" />
-        </video>
+        />
       </div>
     </div>
   );
